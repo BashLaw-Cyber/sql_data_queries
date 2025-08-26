@@ -33,7 +33,7 @@ Below is a sample schema used in these queries:
 ```sql
 CREATE TABLE auction (
     item_id INT PRIMARY KEY,
-    Name VARCHAR(100),
+    item_name VARCHAR(100),
     num_bids VARCHAR(100),
     winner_id VARCHAR(50),
     closed CHAR(1)
