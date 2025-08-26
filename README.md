@@ -5,10 +5,14 @@ This repository contains a collection of **SQL queries** demonstrating my expert
 ---
 
 ## 📌 **Table of Contents**
-- [Introduction](#introduction)
-- [Database Schema](#database-schema)
-- [Screenshots](#screenshots)
-- [License](#license)
+- [📌 **Table of Contents**](#-table-of-contents)
+- [**Introduction**](#introduction)
+- [**Database Schema**](#database-schema)
+- [**Screenshots**](#screenshots)
+  - [**1. INNER JOIN**](#1-inner-join)
+  - [**2. LEFT JOIN**](#2-left-join)
+  - [**3. Filtering**](#3-filtering)
+  - [**4. GROUP BY**](#4-group-by)
 
 ---
 
@@ -18,9 +22,6 @@ This project highlights **mySQL** queries written to solve real-world database p
 
 - CRUD operations (Create, Read, Update, Delete)
 - Joins (INNER, LEFT, RIGHT, FULL)
-- Aggregate Functions (COUNT, SUM, AVG, MAX, MIN)
-- Nested Queries & CTEs (Common Table Expressions)
-- Database Design & Optimization
 
 ---
 
@@ -46,33 +47,23 @@ CREATE TABLE Orders (
 ## **Screenshots**
 
 ### **1. INNER JOIN**
-> *Query to join table bidder and auction innerly on a condition.*
-<p align="center">
-  <img src="screenshot/sql1.png" alt="Customers from Nigeria" width="80%" style="border-radius:10px;box-shadow:0px 0px 10px #ccc;">
-</p>
+> *Query to join `bidder` and `auction` tables on a condition.*
+![INNER JOIN Result](screenshot/sql1.png)
 
 ---
 
 ### **2. LEFT JOIN**
-> *Query left joining `bidder` and `auction` tables ON a condition*
-<p align="center">
-  <img src="screenshot/sql2.png" alt="Customers and Orders" width="80%" style="border-radius:10px;box-shadow:0px 0px 10px #ccc;">
-</p>
+> *Query left joining `bidder` and `auction` tables on a condition.*
+![LEFT JOIN Result](screenshot/sql2.png)
 
 ---
 
-### **3.Filtering base on a condition**
-> *Query using `WHERE` and 'AND' to filter out a data*
-<p align="center">
-  <img src="screenshot/sql54.png" alt="Total Amount Spent" width="80%" style="border-radius:10px;box-shadow:0px 0px 10px #ccc;">
-</p>
+### **3. Filtering**
+> *Query using `WHERE` and `AND` to filter data.*
+![Filtering Result](screenshot/sql54.png)
 
 ---
 
-### **4. GROUP BY **
-> *Subquery to 'GROUP BY' a value .*
-<p align="center">
-  <img src="screenshot\sql5.png" alt="High Spending Customers" width="80%" style="border-radius:10px;box-shadow:0px 0px 10px #ccc;">
-</p>
-
----
+### **4. GROUP BY**
+> *Query grouping results by a column value.*
+![GROUP BY Result](screenshot/sql5.png)
