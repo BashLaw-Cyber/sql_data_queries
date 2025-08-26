@@ -7,12 +7,6 @@ This repository contains a collection of **SQL queries** demonstrating my expert
 ## 📌 **Table of Contents**
 - [Introduction](#introduction)
 - [Database Schema](#database-schema)
-- [Sample Queries](#sample-queries)
-  - [1. Basic Queries](#1-basic-queries)
-  - [2. Joins & Relationships](#2-joins--relationships)
-  - [3. Aggregations & Grouping](#3-aggregations--grouping)
-  - [4. Subqueries & Advanced SQL](#4-subqueries--advanced-sql)
-- [How to Run](#how-to-run)
 - [Screenshots](#screenshots)
 - [License](#license)
 
@@ -48,8 +42,6 @@ CREATE TABLE Orders (
     Amount DECIMAL(10,2),
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
-*
-
 
 ## **Screenshots**
 
