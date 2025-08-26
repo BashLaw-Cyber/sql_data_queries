@@ -9,10 +9,12 @@ This repository contains a collection of **SQL queries** demonstrating my expert
 - [**Introduction**](#introduction)
 - [**Database Schema**](#database-schema)
 - [**Screenshots**](#screenshots)
-  - [**1. INNER JOIN**](#1-inner-join)
-  - [**2. LEFT JOIN**](#2-left-join)
-  - [**3. Filtering**](#3-filtering)
-  - [**4. GROUP BY**](#4-group-by)
+  - [**1. AUCTION TABLE**](#1-auction-table)
+  - [**2. BIDDER TABLE**](#2-bidder-table)
+  - [**3. INNER JOIN**](#3-inner-join)
+  - [**4. LEFT JOIN**](#4-left-join)
+  - [**5. Filtering**](#5-filtering)
+  - [**6. GROUP BY**](#6-group-by)
 
 ---
 
@@ -47,28 +49,40 @@ CREATE TABLE Orders (
 
 ## **Screenshots**
 
-### **1. INNER JOIN**
+### **1. AUCTION TABLE**
+
+![AUCTION TABLE](screenshot/sql7.png)
+
+---
+
+### **2. BIDDER TABLE**
+
+![BIDDER TABLE](screenshot/sql8.png)
+
+---
+
+### **3. INNER JOIN**
 
 > *Query to join `bidder` and `auction` tables on a condition.*
 ![INNER JOIN Result](screenshot/sql1.png)
 
 ---
 
-### **2. LEFT JOIN**
+### **4. LEFT JOIN**
 
 > *Query left joining `bidder` and `auction` tables on a condition.*
 ![LEFT JOIN Result](screenshot/sql2.png)
 
 ---
 
-### **3. Filtering**
+### **5. Filtering**
 
 > *Query using `WHERE` and `AND` to filter data.*
 ![Filtering Result](screenshot/sql54.png)
 
 ---
 
-### **4. GROUP BY**
+### **6. GROUP BY**
 
 > *Query grouping results by a column value.*
 ![GROUP BY Result](screenshot/sql5.png)
