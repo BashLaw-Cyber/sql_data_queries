@@ -31,19 +31,18 @@ This project highlights **mySQL** queries written to solve real-world database p
 Below is a sample schema used in these queries:
 
 ```sql
-CREATE TABLE Customers (
-    CustomerID INT PRIMARY KEY,
+CREATE TABLE auction (
+    item_id INT PRIMARY KEY,
     Name VARCHAR(100),
-    Email VARCHAR(100),
-    Country VARCHAR(50)
+    num_bids VARCHAR(100),
+    winner_id VARCHAR(50),
+    closed CHAR(1)
 );
 
-CREATE TABLE Orders (
-    OrderID INT PRIMARY KEY,
-    CustomerID INT,
-    OrderDate DATE,
-    Amount DECIMAL(10,2),
-    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+CREATE TABLE bidder (
+    bidder_id INT PRIMARY KEY,
+    surname VARCHAR(100),
+    first_initial CHAR(1),
 );
  ```
 
