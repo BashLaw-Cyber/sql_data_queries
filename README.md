@@ -43,27 +43,32 @@ CREATE TABLE Orders (
     Amount DECIMAL(10,2),
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
+ ```
 
 ## **Screenshots**
 
 ### **1. INNER JOIN**
+
 > *Query to join `bidder` and `auction` tables on a condition.*
 ![INNER JOIN Result](screenshot/sql1.png)
 
 ---
 
 ### **2. LEFT JOIN**
+
 > *Query left joining `bidder` and `auction` tables on a condition.*
 ![LEFT JOIN Result](screenshot/sql2.png)
 
 ---
 
 ### **3. Filtering**
+
 > *Query using `WHERE` and `AND` to filter data.*
 ![Filtering Result](screenshot/sql54.png)
 
 ---
 
 ### **4. GROUP BY**
+
 > *Query grouping results by a column value.*
 ![GROUP BY Result](screenshot/sql5.png)
